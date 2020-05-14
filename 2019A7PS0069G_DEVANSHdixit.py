@@ -12,7 +12,7 @@ im.show()
 im = np.array(Image.open(r'C:\Users\Dell\Desktop\kratos.jpg'))
 # print(im)
 
-im=255-im #converted the numpy array 
+im=255-im #converted the numpy array into its contrast by subtracting from 255.
 # print(im)
 
 # saving and displaying its invert
